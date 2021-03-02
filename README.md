@@ -11,7 +11,7 @@ React Hook to update your document's title
 - [x] useConfirm
 - [x] useFadeIn
 - [x] useNetwork
-- [ ] useScroll
-- [ ] useFullscreen
+- [x] useScroll
+- [x] useFullscreen
 - [ ] useNotification
 - [ ] useAxios
