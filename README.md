@@ -5,7 +5,7 @@ React Hook to update your document's title
 - [x] useTitle
 - [x] useInput
 - [ ] usePageLeave
-- [ ] useClick
+- [x] useClick
 - [ ] useFadeIn
 - [ ] useFullscreen
 - [ ] useHover
