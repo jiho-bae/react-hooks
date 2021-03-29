@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import { UserContext } from "./context";
 
-const Header = ({ user }) => (
-  <header>
-    <a href="#">Home</a> Hello, {user.name}!
-  </header>
-);
+const Header = () => {
+  const {
+    user: { name, loggedIn },
+  } = useContext(UserContext);
+  return (
+    <header>
+      <a href="#">Home</a> Hello, {name}, you are {loggedIn ? "logged in" : "anonymous"}!
+    </header>
+  );
+};
 
 export default Header;
