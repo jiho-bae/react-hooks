@@ -1,5 +1,4 @@
 import uuid from "uuid/v4";
-import Add from "./Add";
 import { ADD, DEL, COMPLETE, UNCOMPLETE } from "./actions";
 
 export const initialState = {
